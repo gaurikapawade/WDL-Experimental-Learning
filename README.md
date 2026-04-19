@@ -26,3 +26,5 @@ The form collects structured feedback from students regarding courses, instructo
 * Clean and responsive UI design
 * Separate success page after submission
 * External CSS for maintainability
+
+Module 1 is completed at Commit 35
