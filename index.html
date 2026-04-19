@@ -13,11 +13,11 @@
         <fieldset>
             <legend>1. Student Information</legend>
             <label>Full Name*</label>
-            <input type="text" placeholder="Enter name" required><br>
+            <input type="text" placeholder="Enter name" required><br><br>
             <label>USN No.*</label>
-            <input type="text" placeholder="Enter USN" required><br>
+            <input type="text" placeholder="Enter USN" required><br><br>
             <label>College Email ID*</label>
-            <input type="email" placeholder="Enter email" required><br>
+            <input type="email" placeholder="Enter email" required><br><br>
             <label>Department*</label>
             <select required>
                 <option value="">Select department</option>
@@ -26,7 +26,7 @@
                 <option value="ME">ME</option>
                 <option value="CE">AIML</option>
                 <option value="EE">DS</option>
-            </select><br>
+            </select><br><br>
             <label>Current Semester*</label>
             <select required>
                 <option value="">Select semester</option>
@@ -40,98 +40,104 @@
                 <option value="8">8th Semester</option>
             </select><br>
         </fieldset>
+        <br>
 
         <!--Section 2: Course Information-->
         <fieldset>
             <legend>2. Course Information</legend>
             <label>Course Name*</label>
-            <input type="text" placeholder="Enter course name" required><br>
+            <input type="text" placeholder="Enter course name" required><br><br>
             <label>Course Code*</label>
-            <input type="text" placeholder="Enter course code" required><br>
+            <input type="text" placeholder="Enter course code" required><br><br>
             <label>Faculty Name*</label>
-            <input type="text" placeholder="Enter faculty name" required><br>
+            <input type="text" placeholder="Enter faculty name" required><br><br>
             <label>Course Type*</label>
             <select required>
                 <option value="">Select course type</option>
                 <option value="Theory">Theory</option>
                 <option value="Practical">Practical</option>
-            </select><br>
+            </select><br><br>
             <label>Course Completion Date*</label>
             <input type="date" required><br>
         </fieldset>
-
+        <br>
 
         <!--Section 3: Course Difficulty-->
         <fieldset>
             <legend>3. Course Difficulty</legend>
-            <label>How would you rate the difficulty of the course?*</label><br>
+            <label>How would you rate the difficulty of the course?*</label><br><br>
             <input type="radio"  required> 1 (Very Easy)<br>
             <input type="radio"> 2 (Easy)<br>
             <input type="radio"> 3 (Moderate)<br>
             <input type="radio"> 4 (Difficult)<br>
             <input type="radio"> 5 (Very Difficult)<br>
         </fieldset>
-
+        <br>
         <!--Section 4: Course Rating-->
         <fieldset>
             <legend>4. Course Rating</legend>
-            <label>How would you rate the overall quality of the course?*</label><br>
+            <label>How would you rate the overall quality of the course?*</label>
             <input type="range" min="1" max="10" value="5" required>
-            <output>5</output><br>
-            <label>How would you rate the teaching effectiveness of the faculty?*  </label><br>
+            <output>5</output><br><br>
+            <label>How would you rate the teaching effectiveness of the faculty?*  </label>
             <input type="range" min="1" max="10" value="5" required>
-            <output>5</output><br>
-            <label>How would you rate the course materials (textbooks, online resources, etc.)?*</label><br>
+            <output>5</output><br><br>
+            <label>How would you rate the course materials (textbooks, online resources, etc.)?*</label>
             <input type="range" min="1" max="10" value="5" required>
-            <output>5</output><br> 
-            <label>How would you rate the course assignments and projects?*</label><br>
+            <output>5</output><br><br>
+            <label>How would you rate the course assignments and projects?*</label>
             <input type="range" min="1" max="10" value="5" required>
-            <output>5</output><br>
-            <label>How would you rate the course overall?*</label><br>
+            <output>5</output><br><br>
+            <label>How would you rate the course overall?*</label>
             <input type="range" min="1" max="10" value="5" required>
             <output>5</output><br>
         </fieldset>
+        <br>
 
         <!--Section 5: Course Outcomes-->
         <fieldset>
             <legend>5. Course Outcomes</legend>
-            <label>What you have learned from this course?*</label><br>
+            <label>What you have learned from this course?*</label><br><br>
             <input type="checkbox"> I understand the fundamental concepts<br>
             <input type="checkbox"> I gained practical skills<br>
             <input type="checkbox"> I improved my critical thinking abilities<br>
             <input type="checkbox"> I developed my communication skills<br>
             <input type="checkbox"> I mastered the course content<br>
+        </fieldset>
+        <br>
         <!--Section 6: Course Score-->
         
         <fieldset>
             <legend>6. Course Score</legend>
             <label>what was your attendance for this course?*</label>
-            <input type="number" placeholder="Enter attendance" min="75" max="100" required><br>
+            <input type="number" placeholder="Enter attendance" min="75" max="100" required><br><br>
             <label>How many classes did you attend?*</label>
-            <input type="number" placeholder="Enter number of classes attended" required><br>
+            <input type="number" placeholder="Enter number of classes attended" required><br><br>
             <label>what marks did you get out of 50?*</label>
-            <input type="number" placeholder="Enter marks" min="0" max="50" required><br>
+            <input type="number" placeholder="Enter marks" min="0" max="50" required><br><br>
         </fieldset>
-
+        <br>
         <!--Section 7: Course Comments-->
         <fieldset>
             <legend>7. Course Comments</legend>
             <label>What areas would you like to see improved?*</label><br>
-            <textarea placeholder="Enter your suggestions here" rows="4" cols="50" required></textarea><br>
+            <textarea placeholder="Enter your suggestions here" rows="4" cols="50" required></textarea><br><br>
             <label>Any additional comments or feedback?</label><br>
             <textarea placeholder="Enter your comments here" rows="4" cols="50"></textarea><br>
         </fieldset>
+        <br>
 
         <!--Section 8: Course Recommendation-->
         <fieldset>
             <legend>8. Course Recommendation</legend>
-            <label>Would you recommend this course to other students?*</label><br>
+            <label>Would you recommend this course to other students?*</label><br><br>
             <input type="radio" required> Definitely Yes<br>
             <input type="radio"> Probably Yes<br>
             <input type="radio"> Not Sure<br>
             <input type="radio"> Probably No<br>
             <input type="radio"> Definitely No<br>
         </fieldset>
+        <br>
 
         <!--Section 9: Confirmation-->
         <fieldset>
@@ -139,12 +145,13 @@
             <input type="checkbox" required>
             <label>I confirm that the information provided is accurate and truthful.*</label><br>
         </fieldset>
-        </form>
-
+        <br>
+        
         <!--Submit and Reset Buttons-->
         <button type="submit">Submit Feedback</button>
         <button type="reset">Reset Form</button>\
-
+        </form>
+        
         <!--Footer-->
         <footer>
             <p>For any inquiries, please contact on feedback@sbjit.edu.in</p>
