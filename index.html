@@ -8,7 +8,38 @@
         <!--Heading-->
         <h1>Student Feedback Form</h1>
         <p>This is a simple feedback form for students.</p>
+        <form>
         <!--Section 1: Student Information-->
+        <fieldset>
+            <legend>1. Student Information</legend>
+            <label>Full Name*</label>
+            <input type="text" placeholder="Enter name" required><br>
+            <label>USN No.*</label>
+            <input type="text" placeholder="Enter USN" required><br>
+            <label>College Email ID*</label>
+            <input type="email" placeholder="Enter email" required><br>
+            <label>Department*</label>
+            <select required>
+                <option value="">Select department</option>
+                <option value="CSE">CSE</option>
+                <option value="ECE">IT</option>
+                <option value="ME">ME</option>
+                <option value="CE">AIML</option>
+                <option value="EE">DS</option>
+            </select><br>
+            <label>Current Semester*</label>
+            <select required>
+                <option value="">Select semester</option>
+                <option value="1">1st Semester</option>
+                <option value="2">2nd Semester</option>
+                <option value="3">3rd Semester</option>
+                <option value="4">4th Semester</option>
+                <option value="5">5th Semester</option>
+                <option value="6">6th Semester</option>
+                <option value="7">7th Semester</option>
+                <option value="8">8th Semester</option>
+            </select><br>
+        </fieldset>
         <!--Section 2: Course Information-->
         <!--Section 3: Course Difficulty-->
         <!--Section 4: Course Rating-->
@@ -17,6 +48,7 @@
         <!--Section 7: Course Comments-->
         <!--Section 8: Course Recommendation-->
         <!--Section 9: Confirmation-->
+        </form>
         <!--Submit and Reset Buttons-->
         <!--Footer-->
 
